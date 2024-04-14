@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: ysolarh/backend:latest
+    image: yh0921k/backend-django:latest
     container_name: backend
     env_file:
       - .env
